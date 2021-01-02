@@ -67,7 +67,7 @@ var authConfig = {
 var themeOptions = {
   cdn: "https://cdn.jsdelivr.net/gh/scvango/drive",
   // 主题版本号
-  version: "2.1.0",
+  version: "2.1.1",
   //可选默认系统语言:en/zh-chs/zh-cht
   languages: "en",
   render: {
