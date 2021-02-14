@@ -185,11 +185,6 @@ export default {
     players() {
       return [
         {
-          name: "IINA",
-          icon: this.$cdnpath("images/player/iina.png"),
-          scheme: "iina://weblink?url=" + this.videoUrl,
-        },
-        {
           name: "PotPlayer",
           icon: this.$cdnpath("images/player/potplayer.png"),
           scheme: "potplayer://" + this.videoUrl,
@@ -215,12 +210,12 @@ export default {
           scheme: "nplayer-" + this.videoUrl,
         },
         {
-          name: "MXPlayer(Free)",
-          icon: this.$cdnpath("images/player/mxplayer.png"),
+          name: "ADM",
+          icon: this.$cdnpath("images/player/adm.png"),
           scheme:
             "intent:" +
             this.videoUrl +
-            "#Intent;package=com.mxtech.videoplayer.ad;S.title=" +
+            "#Intent;package=com.dv.adm;S.title=" +
             this.title +
             ";end",
         },
