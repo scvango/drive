@@ -215,8 +215,8 @@ export default {
           scheme: "nplayer-" + this.videoUrl,
         },
         {
-          name: "ADM",
-          icon: this.$cdnpath("images/player/adm.png"),
+          name: "MXPlayer(Free)",
+          icon: this.$cdnpath("images/player/mxplayer.png"),
           scheme:
             "intent:" +
             this.videoUrl +
