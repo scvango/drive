@@ -185,6 +185,11 @@ export default {
     players() {
       return [
         {
+          name: "IINA",
+          icon: this.$cdnpath("images/player/iina.png"),
+          scheme: "iina://weblink?url=" + this.videoUrl,
+        },
+        {
           name: "PotPlayer",
           icon: this.$cdnpath("images/player/potplayer.png"),
           scheme: "potplayer://" + this.videoUrl,
